@@ -1,0 +1,30 @@
+{
+  "name": "quras-cli",
+  "version": "1.0.7",
+  "description": "A CLI app that gives you the weather forecast",
+  "license": "MIT",
+  "homepage": "https://github.com/timberio/outside-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timberio/outside-cli.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "QurasCLI"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "quras-cli": "bin/outside"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.18.0",
+    "minimist": "^1.2.0",
+    "ora": "^2.0.0",
+    "quras-js": "^2.0.1",
+    "aes256": "^1.0.4"
+  }
+}
